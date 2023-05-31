@@ -58,7 +58,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and let&apos;s get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -75,7 +75,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -108,7 +108,7 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
@@ -134,79 +134,79 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
+              and collaborated with talented people to create digital products
               for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I offer a wide range of services, including brand design,
+              programming, and teaching.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+            <div className="w-1/3 flex-1 ">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={1000}
+                height={1000}
                 layout="responsive"
                 src={web1}
-                alt="Web Proyect1"
+                alt="Web Project 1"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={1000}
+                height={1000}
                 layout="responsive"
                 src={web2}
-                alt="Web Proyect2"
+                alt="Web Project 2"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={1000}
+                height={1000}
                 layout="responsive"
                 src={web3}
-                alt="Web Proyect3"
+                alt="Web Project 3"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={1000}
+                height={1000}
                 layout="responsive"
                 src={web4}
-                alt="Web Proyect4"
+                alt="Web Project 4"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={1000}
+                height={1000}
                 layout="responsive"
                 src={web5}
-                alt="Web Proyect5"
+                alt="Web Project 5"
               />
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="w-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
+                width={1000}
+                height={1000}
                 layout="responsive"
                 src={web6}
-                alt="Web Proyect6"
+                alt="Web Project 6"
               />
             </div>
           </div>
